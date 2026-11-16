@@ -19,13 +19,12 @@ Stores, schools, offices, and other public places need to know how many people p
 
 ## Techniques Used
 
-`(a) Image Operations` = Resize, grayscale, histogram equalization | Prepares each frame so detection is faster and works better in uneven lighting 
-
-`(b) Image Segmentation` = Background subtraction (MOG2), Gaussian blur, thresholding, morphological cleanup | Separates moving parts of the scene from the still background (motion mask) |
-
-`(c) Haar Cascade Classifier` = `haarcascade_frontalface_default.xml` | Finds front-facing faces in each frame |
-
-`(e) Motion and Object Tracking` = Centroid tracker with motion events | Gives each person an ID that stays the same between frames and reports when a person is counted, stops moving, or starts moving again |
+| Topic | Technique | Purpose in this project |
+|---|---|---|
+| (a) Image Operations | Resize, grayscale, histogram equalization | Prepares each frame so detection is faster and works better in uneven lighting |
+| (b) Image Segmentation | Background subtraction (MOG2), Gaussian blur, thresholding, morphological cleanup | Separates moving parts of the scene from the still background (motion mask) |
+| (c) Haar Cascade Classifier | `haarcascade_frontalface_default.xml` | Finds front-facing faces in each frame |
+| (e) Motion and Object Tracking | Centroid tracker with motion events | Gives each person an ID that stays the same between frames and reports when a person is counted, stops moving, or starts moving again |
 
 ## How It Works
 
@@ -183,10 +182,10 @@ These can be changed at the top of `main.py`.
 ## Sample Input and Screenshots
 
 - Sample input video: `samples/sample.mp4`
-- Output screenshots: see the `screenshots/` folder.
+- Output screenshots: see the `Screenshot/` folder.
 
-screenshots/4c283e04-5ae0-4c2f-b030-ab7b2b084789.jpg
-`![Moving person detected]`
+
+![Moving person detected](Screenshot/4c283e04-5ae0-4c2f-b030-ab7b2b084789.jpg)
 
 ## Possible Improvements
 
