@@ -182,10 +182,10 @@ These can be changed at the top of `main.py`.
 ## Sample Input and Screenshots
 
 - Sample input video: `samples/sample.mp4`
-- Output screenshots: see the `Screenshot/` folder.
+- Output screenshots: see the `screenshots/` folder.
 
 
-![Moving person detected](Screenshot/4c283e04-5ae0-4c2f-b030-ab7b2b084789.jpg)
+![Moving person detected](screenshots/4c283e04-5ae0-4c2f-b030-ab7b2b084789.jpg)
 
 ## Possible Improvements
 
