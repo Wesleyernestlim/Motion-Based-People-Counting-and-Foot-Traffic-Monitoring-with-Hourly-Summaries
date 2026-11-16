@@ -185,8 +185,8 @@ These can be changed at the top of `main.py`.
 - Sample input video: `samples/sample.mp4`
 - Output screenshots: see the `screenshots/` folder.
 
-
-*(Add one or two screenshots here, for example: `![Moving person detected](screenshots/4c283e04-5ae0-4c2f-b030-ab7b2b084789.jpg)`)*
+screenshots/4c283e04-5ae0-4c2f-b030-ab7b2b084789.jpg
+`![Moving person detected]`
 
 ## Possible Improvements
 
